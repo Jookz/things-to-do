@@ -8,7 +8,7 @@ export default function Home() {
       <h3>Let me help you with that.</h3>
       <button>
         <Link to="/idea/">
-          Tap for <strong>Inspiration</strong>
+          <strong>Hit me with it</strong>
         </Link>
       </button>
     </div>
