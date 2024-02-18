@@ -69,3 +69,22 @@ body {
   transform-origin: 50% 100%;
   animation: fallAndBounce 4s infinite;
 }
+
+.btn {
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2e9f48;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4d8a1c;
+  text-decoration: none;
+}
+
+.idea-text {
+  font-size: 2.5rem;
+}

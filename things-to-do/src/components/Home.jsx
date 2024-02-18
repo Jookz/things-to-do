@@ -13,11 +13,11 @@ export default function Home() {
         />
       </h1>
       <h3>Let me help you with that.</h3>
-      <button>
-        <Link to="/idea/">
+      <Link to="/idea/">
+        <button className="btn">
           <strong>Hit me with it</strong>
-        </Link>
-      </button>
+        </button>
+      </Link>
     </div>
   );
 }

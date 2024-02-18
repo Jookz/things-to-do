@@ -42,14 +42,15 @@ export default function Idea() {
   return (
     <div>
       <section>
-        <h1>{idea}.</h1>
+        <h1 className="idea-text">{idea}.</h1>
       </section>
-      {/* <div className="gcse-search"></div> */}
       <section className="main-text">
         <h1>Not for you?</h1>
-        <button>
-          <Link to="/">Try again.</Link>
-        </button>
+        <Link to="/">
+          <button className="btn">
+            <strong>Try again.</strong>
+          </button>
+        </Link>
       </section>
     </div>
   );
