@@ -8,7 +8,7 @@ export default function Home() {
         Bored{"    "}
         <img
           className="q-mark"
-          src="../../public/black-question-mark-icon-clip-art-10.png"
+          src="../../black-question-mark-icon-clip-art-10.png"
           alt="black question mark"
         />
       </h1>

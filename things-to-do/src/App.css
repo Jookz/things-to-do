@@ -32,6 +32,33 @@ body {
   position: relative;
 }
 
+@keyframes fallAndBounce {
+  0% {
+    transform: rotate(0deg);
+  }
+  7% {
+    transform: rotate(75deg);
+  }
+  8% {
+    transform: rotate(65deg);
+  }
+  9% {
+    transform: rotate(75deg);
+  }
+  50% {
+    transform: rotate(75deg);
+  }
+  70% {
+    transform: rotate(75deg);
+  }
+  90% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .q-mark {
   position: absolute;
   height: 25px;
@@ -39,4 +66,6 @@ body {
   margin: 0;
   top: 5px;
   right: 42px;
+  transform-origin: 50% 100%;
+  animation: fallAndBounce 4s infinite;
 }
